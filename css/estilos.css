@@ -4,13 +4,13 @@
   text-decoration: none;
   list-style: none;
   box-sizing: border-box;
-  transition: .5s;
+  transition: 0.5s;
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
 }
 nav {
-  background-color: #06283D;
+  background-color: #06283d;
   height: 80px;
   width: 100%;
 }
@@ -32,7 +32,7 @@ nav ul li {
   margin: 0 5px;
 }
 nav ul li a {
-  color: #1363DF;
+  color: #1363df;
   font-size: 18px;
   padding: 7px 13px;
   border-radius: 3px;
@@ -40,7 +40,7 @@ nav ul li a {
 }
 li a.active,
 li a:hover {
-  background: #47B5FF;
+  background: #47b5ff;
   transition: 0.5s;
 }
 .checkbtn {
@@ -56,9 +56,8 @@ li a:hover {
   display: none;
 }
 
-
 /* modo reponsive*/
-@media (max-width: 952px) {
+@media (max-width: 700px) {
   .enlace {
     padding-left: 20px;
   }
@@ -66,9 +65,10 @@ li a:hover {
     font-size: 16px;
   }
 }
-@media (max-width: 858px) {
+@media (max-width: 480px ) and (min-width:360px) {
   .checkbtn {
     display: block;
+
   }
   ul {
     position: fixed;
@@ -78,7 +78,7 @@ li a:hover {
     top: 80px;
     left: -100%;
     text-align: center;
-    transition: all .5s;
+    transition: all 0.5s;
   }
   nav ul li {
     display: block;
@@ -88,7 +88,8 @@ li a:hover {
   nav ul li a {
     font-size: 20px;
   }
-  li a:hover,li a.active {
+  li a:hover,
+  li a.active {
     background: none;
     color: #18978f;
   }
@@ -96,93 +97,92 @@ li a:hover {
     left: 0;
   }
 }
-body{
-    position: relative;
-    background: url("../img/finanzas.jpg");
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    overflow: hidden;
-
-
+body {
+  position: relative;
+  background: url("../img/c3.jpg");
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  overflow: hidden;
 }
 
-#particles-js{  
-    position: relative;
-    top: 0;
-    left: 0;
-    height: 80%;
-    width: 100%;
-    opacity: .3;
-    background-attachment: fixed;
-    background-position: center;
-    background-size: cover;
-    
-
+#particles-js {
+  position: relative;
+  top: 0;
+  left: 0;
+  height: 80%;
+  width: 100%;
+  opacity: 0.5;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
 }
-.letras{
-    top: 200px;
-    position: absolute;
-    width: 80%;
-   color: #f7ecde ;
-    text-align: center;
+.letras {
+  top: 200px;
+  position: absolute;
+  width: 80%;
+  color: #f7ecde;
+  text-align: center;
 }
 
-.title{
-    color: #ffff;
-    font-family: ;
-    font-size: 100px;
-    cursor: pointer;
-    white-space: nowrap;
-    position: absolute;
-    overflow: hidden;
-    top:50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    -ms-transform: translate(-50%, -50%);
-}
-.social{
-    position: fixed;
-    left:0;
-    top:300px;
-    z-index: 2000;
-}
-.social ul{
-    list-style: none;
-}
-.social ul li a{
-    display: inline-block;
-    color: #f7ecde;
-    background: #0000;
-    padding: 10px 15px;
-    text-decoration: none;
-    -webkit-transition: all 500ms ease;
-    -o-transition: all 500ms ease ;
-    transition: all 500ms ease;
-}
-.social ul li .fa-brands fa-facebook{
-    background: #3b5998;
-}
-.social ul li .fa-brands fa-instagram{
-    background: #ff0080;
+.title {
+  color: #ffff;
 
+  font-size: 100px;
+  cursor: pointer;
+  white-space: nowrap;
+  position: absolute;
+  overflow: hidden;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
 }
-.social ul li .fa-brands fa-youtube{
-    background: #c4302b;
+
+/*redes sociales*/
+.social {
+  position: fixed;
+  left: 0;
+  top: 300px;
+  z-index: 2000;
 }
-.social ul li .fa-brands fa-github{
-    background: #171515;
+.social ul {
+  list-style: none;
 }
-.social ul li a:hover{
-    padding: 10px 30px;
-    background: #171515;
+.social ul li a {
+  display: inline-block;
+  color: #090909;
+  background:#f7ecde;
+  padding: 20px 20px;
+  border-radius: 15px;
+  text-decoration: none;
+  -webkit-transition: all 500ms ease;
+  -o-transition: all 500ms ease;
+  transition: all 500ms ease;
+}
+.social ul li .fa-brands fa-facebook {
+  background: #3b5998;
+  
+}
+.social ul li .fa-brands fa-instagram {
+  background: #ff0080;
+}
+.social ul li .fa-brands fa-youtube {
+  background: #c4302b;
+}
+.social ul li .fa-brands fa-github {
+  background: #171515;
+}
+.social ul li a:hover {
+  padding: 15px 40px;
+ background: #ff0080;
 }
 
 @font-face {
-    font-family: 'miFuente';
-    src: url(../fuentes/Austria.otf);
+  font-family: "miFuente";
+  src: url(../fuentes/Qwerty\ Ability\ -\ Personal\ Use.otf);
 }
-.title{
-    font-family: 'miFuente';   
+.title {
+  font-family: "miFuente";
 }
