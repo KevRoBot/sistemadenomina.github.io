@@ -99,14 +99,60 @@ li a:hover {
 }
 body {
   position: relative;
-  background: url("../img/c3.jpg");
+  background: url("../img/c5.jpg");
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
   overflow: hidden;
 }
+/*botones de inicio*/
+.buttonA{
+  padding: 15px 18px;
+  border: 1px solid #f7ecde;
+  background-color: transparent;
+  color: #f7ecde;
+  text-decoration: none;
+  border-radius: 20px;
+  cursor: pointer;
+  z-index: 2;
+ margin:10px;
+ margin-top: 400px;
+ position: absolute;
+ width: 10%;
+ height: 8%;
+ left: 35%;
+ right: 20%;
+}
+.buttonA:hover{
+  color: #090909;
+  background-color: #f7ecde;  
+}
+.buttonE{
+  padding: 10px 15px;
+  border: 1px solid #f7ecde;
+  background-color: transparent;
+  color: #f7ecde;
+  text-decoration: none;
+  border-radius: 20px;
+  cursor: pointer;
+  z-index: 2;
+  margin:10px;
+ margin-top: 400px;
+ position: absolute;
+ width: 10%;
+ height: 8%;
+ left: 50%;
+ right: 50%;
 
+  
+}
+.buttonE:hover{
+  color: #090909;
+  background-color: #f7ecde;  
+}
+
+/*Particulas js */
 #particles-js {
   position: relative;
   top: 0;
@@ -161,11 +207,11 @@ body {
   -o-transition: all 500ms ease;
   transition: all 500ms ease;
 }
-.social ul li .fa-brands fa-facebook {
+.social ul li  .fa-brands fa-facebook {
   background: #3b5998;
   
 }
-.social ul li .fa-brands fa-instagram {
+.social ul li  .fa-brands fa-instagram {
   background: #ff0080;
 }
 .social ul li .fa-brands fa-youtube {
@@ -176,7 +222,7 @@ body {
 }
 .social ul li a:hover {
   padding: 15px 40px;
- background: #ff0080;
+ background-color: #ff0080;
 }
 
 @font-face {
@@ -185,4 +231,13 @@ body {
 }
 .title {
   font-family: "miFuente";
+}
+
+/*Diseño formulario empleado*/
+form{
+  padding: 30px;
+  width: 500px;
+  height: 600px;
+  margin: 20px;
+  color: #f7ecde;
 }
