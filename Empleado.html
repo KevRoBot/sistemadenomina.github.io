@@ -1,57 +1,72 @@
 <!DOCTYPE html>
 <html lang="es">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="sistema" content="sistema de nómina">
-    <link rel="stylesheet" href="css/estilos.css" />
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="sistema" content="sistema de nómina" />
+    <link rel="stylesheet" href="css/users.css" />
     <link rel="stylesheet" href="css/fonts.css" />
     <title>Empleados</title>
-</head>
-<body>
-    <form>
-        <div id="formEmpleado">
-            Ingresar nombre:
-        <input type="text" size="30">
-        <br>
-        Ingresar apellidos:
-        <input type="text" size="30">
-        <br>
-        <input type="text" size="30">
-        <br>
-        Dirección:
-        <input type="text" size="30">
-        <br>
-        Telefono:
-        <input type="text" size="30">
-        <br>
-        RFC:
-        <input type="text" size="30">
-        <br>
-        CURP:
-        <input type="text" size="30">
-        <br>
-        Fecha de Ingreso:
-        <input type="date" size="30">
-        <br>
-        Departamento:
-        <input type="text" size="30">
-        <br>
-        Cargo desempeñado:
-        <input type="text" size="30">
-        <br>
-        Salario:
-        <input type="text" size="30">
-        <br>
-
-        <input type="submit" value="Guardar" >
-        <input type="submit" value="Actualizar">
-        <input type="submit" value="Dar de baja">
-
-
+  </head>
+  <body>
+    <div class="container">
+      <div class="title">Informacion Empleado</div>
+      <div action="#">
+        <div class="user-details"></div>
+        <div class="input-box">
+          <span class="details">Ingresar nombre(s) :</span>
+          <input type="text" placeholder="nombre(s)" required />
         </div>
-        
-    </form>
-    
-</body>
+        <div class="input-box">
+          <span class="details">Apellido Paterno :</span>
+          <input type="text" placeholder="apellido paterno" required />
+        </div>
+        <div class="input-box">
+          <span class="details">Apellido Materno :</span>
+          <input type="text" placeholder="apellido materno" required />
+        </div>
+        <div class="input-box">
+          <span class="details">Dirección :</span>
+          <input type="text" placeholder="Dirección" required />
+        </div>
+        <div class="input-box">
+          <span class="details">Telefono :</span>
+          <input type="text" placeholder="Telefono" required />
+        </div>
+        <div class="input-box">
+          <span class="details">RFC :</span>
+          <input type="text" placeholder="RFC" required />
+        </div>
+        <div class="input-box">
+          <span class="details">C.U.R.P:</span>
+          <input type="text" placeholder="CURP" required />
+        </div>
+        <div class="input-box">
+          <span class="details">Fecha de Ingreso:</span>
+          <input type="date" />
+        </div>
+        <div class="input-box">
+          <span class="details">Departamento :</span>
+          <input type="text" placeholder="Departamento" required />
+        </div>
+        <div class="input-box">
+          <span class="details">Cargo Desempeñado:</span>
+          <input type="text" placeholder="cargo desempeñado" required />
+        </div>
+        <div class="input-box">
+          <span class="details">Salario :</span>
+          <input type="text" placeholder="salario" required />
+        </div>
+        <div class="button">
+            <input type="submit" value="Guardar">
+        </div>
+        <div class="button">
+            <input type="submit" value="Actualizar">
+        </div>
+        <div class="button">
+            <input type="submit" value="Dar de Baja">
+        </div>
+      </form>
+    </div>
+  </body>
 </html>

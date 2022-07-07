@@ -62,10 +62,26 @@ li a:hover {
     padding-left: 20px;
   }
   nav ul li a {
-    font-size: 16px;
+    font-size: 12px;
+  }
+  .buttonA {
+    display: block;
+    margin: 20px;
+    height: 0;
+    width: 0;
+    text-align: center;
+    font-size: 8px;
+  }
+  .buttonE {
+    display: block;
+    margin: 20px;
+    height: 0;
+    width: 0;
+    text-align: center;
+    font-size: 5px;
   }
 }
-@media (max-width: 480px ) and (min-width:360px) {
+@media (max-width: 584px )  {
   .checkbtn {
     display: block;
 
@@ -86,15 +102,42 @@ li a:hover {
     line-height: 30px;
   }
   nav ul li a {
-    font-size: 20px;
+    font-size: 15px;
   }
   li a:hover,
   li a.active {
     background: none;
     color: #18978f;
   }
-  #check:checked ~ ul {
+  #check:checked ~ul{
     left: 0;
+  }
+  .social ul li a {
+    display: inline-block;
+    color: #090909;
+    background:#f7ecde;
+    padding: 20px 20px;
+    border-radius: 15px;
+    text-decoration: none;
+    -webkit-transition: all 500ms ease;
+    -o-transition: all 500ms ease;
+    transition: all 500ms ease;
+  }
+  .buttonA {
+    display: block;
+    margin: 20px;
+    height: 0;
+    width: 0;
+    text-align: center;
+    font-size: 12px;
+  }
+  .buttonE {
+    display: block;
+    margin: 20px;
+    height: 0;
+    width: 0;
+    text-align: center;
+    font-size:9px;
   }
 }
 body {
@@ -233,11 +276,5 @@ body {
   font-family: "miFuente";
 }
 
-/*Diseño formulario empleado*/
-form{
-  padding: 30px;
-  width: 500px;
-  height: 600px;
-  margin: 20px;
-  color: #f7ecde;
-}
+
+
