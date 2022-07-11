@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+body{
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    background: linear-gradient(135deg, #1363DF,#47B5FF);
+
+}
+.container{
+    max-width: 700px;
+    width: 100%;
+    background: #fff;
+    padding: 25px 30px;
+    border-radius: 25px;
+}
+.container .input-box .details{
+    font-weight: 500;
+    margin-bottom: 5px;
+    display: block;
+}
+ .input-box input:focus,
+ .input-box input:valid{
+    border-color: #47B5FF;
+}
+
+
+.input-box .buttonB{
+    height: 50%;
+    width: 25%;
+    outline: none;
+    color: #fff;
+    border: none;
+    font-size: 15px;
+    border-radius: 10px;
+    letter-spacing: 5px;
+    background: linear-gradient(135deg, #1363DF,#47B5FF);
+}
+form .buttonB input:hover{
+    background: linear-gradient(135deg, #47B5FF,#1363DF);
+    
+}
+.input-box .buttonS{
+    height: 50%;
+    width: 25%;
+    outline: none;
+    color: #fff;
+    font-size: 15px;
+    border-radius: 10px;
+    letter-spacing: 5px;
+    background: linear-gradient(135deg, #1363DF,#47B5FF);
+
+}
+form .buttonS input:hover{
+    background:linear-gradient(135deg, #47B5FF,#1363DF);
+}
+
+.buttonG{
+    height: 50%;
+    width: 50%;
+    outline: none;
+    color: #fff;
+    border-radius: 10px;
+    letter-spacing: 5px;
+    background: linear-gradient(135deg, #1363DF,#47B5FF);
+    align-items: center;
+}
+form .buttonG input:hover{
+    background:linear-gradient(135deg, #1363DF,#47B5FF);
+}
+.buttonN{
+    height: 50%;
+    width: 50%;
+    outline: none;
+    color: #fff;
+    border-radius: 10px;
+    background: linear-gradient(135deg, #1363DF,#47B5FF);
+    letter-spacing: 5px;
+    align-items: center;
+}

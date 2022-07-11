@@ -2,7 +2,7 @@ particlesJS( 'particles-js',
 {
     "particles": {
       "number": {
-        "value": 150,
+        "value": 250,
         "density": {
           "enable": true,
           "value_area": 800
@@ -12,7 +12,7 @@ particlesJS( 'particles-js',
         "value": "#bbcdcf"
       },
       "shape": {
-        "type": "star",
+        "type":"edge",
         "stroke": {
           "width": 0,
           "color": "#000000"
@@ -72,7 +72,7 @@ particlesJS( 'particles-js',
       "detect_on": "canvas",
       "events": {
         "onhover": {
-          "enable": false,
+          "enable": true,
           "mode": "repulse"
         },
         "onclick": {
