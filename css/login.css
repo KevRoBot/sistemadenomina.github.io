@@ -1,4 +1,4 @@
-body .*{
+body ,*{
     margin: 0;
     padding: 0;
     width: 100%;
@@ -79,6 +79,6 @@ body{
 }
 @media(max-width: 400px){
     .login{
-        width: 90%;s
+        width: 90%;
     }
 }
