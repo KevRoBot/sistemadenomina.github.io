@@ -40,16 +40,19 @@ body{
     border-bottom-right-radius: 10px;
     font-size: 1rem;
     outline: none;
-    
 }
+
 .login input[type="password"]
 {
     margin-top: 20px;
 }
+
 ::placeholder{
     font-size: 1rem;
     color: rgba(255, 255, 255, .596);
 }
+
+
 .login input:hover{
     transition: .5s;
     border: 1px solid #000;
@@ -72,6 +75,8 @@ body{
     transition: all .5s ease;
     text-align: center;
 }
+
+   
 .login .btn:hover{
     color: #fff;
     border: 2px solid #fff;

@@ -85,3 +85,13 @@ form .buttonG input:hover{
     letter-spacing: 5px;
     align-items: center;
 }
+.buttonR{
+    height: 50%;
+    width: 50%;
+    outline: none;
+    color: #fff;
+    border-radius: 10px;
+    background: linear-gradient(135deg, #1363DF,#47B5FF);
+    letter-spacing: 5px;
+    align-items: center;
+}

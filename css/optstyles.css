@@ -31,7 +31,7 @@ body{
     width: 330px;
     height: 430px;
     border-radius: 8px;
-    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 2px 2px #fff;
     overflow: hidden;
     margin: 20px;
     text-align: center;
@@ -40,7 +40,7 @@ body{
 
 .container .card:hover{
     transform: translateY(-15px);
-    box-shadow: 0 12px 16px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 12px 16px rgb(1, 59, 175);
 }
 .container .card img{
     width: 200px;
@@ -64,4 +64,20 @@ body{
 
 .container .card a:hover{
     background: linear-gradient(135deg, rgb(11, 10, 10),#47B5FF);
+}
+
+.exit input{
+    height: 100%;
+    width: 100%;
+    outline: none;
+    color: rgba(253, 246, 246, 0.884);
+    border-radius: 15px;
+    background: linear-gradient(135deg, #1363DF,#47B5FF);
+    letter-spacing: 2px;
+    align-items: center;
+    
+    
+}
+.exit input:hover{
+    background: linear-gradient(135deg, rgba(234, 10, 10, 0.91),#dc0a0e);
 }

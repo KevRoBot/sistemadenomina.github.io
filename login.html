@@ -6,19 +6,23 @@
     <meta name="login" content="Sistema de nómina">
     <link rel="stylesheet" href="css/login.css" />
     <title>Login</title>
+    <script type="text/javascript" src="js/expRegular.js"></script>
+    
 </head>
 <body>
-    <form action=" " class="login">
+    
+    <form action="" class="login" method="post" >
         <div>
             <img src="img/login.png" alt="user-login">
             <label> </label><br>
-            <input class="form-control" type="text" name="name" placeholder="Ingresa tu usuario">
+            <input class="form-control" type="text" name="name" placeholder=" Usuario" id='usuario'>
         </div>
         <div>
             <label> </label><br>
-            <input class="form-control" type="text" name="pass" placeholder="Ingresa tu contraseña">
+            <input class="form-control" type="password" name="pass" placeholder="Contraseña" id="contraseña"    >
         </div>
-        <a href="options.html" type="button" class="btn">Ingresar</a>
+        
+        <a href="options.html"><input type="button" class="btn" onclick="validar()" value="Ingresar"></a>
     </form>
     
 </body>
