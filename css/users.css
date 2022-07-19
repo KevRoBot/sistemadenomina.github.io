@@ -10,14 +10,14 @@ body{
     height: 100vh;
     justify-content: center;
     align-items: center;
-    padding: 10px;
+    padding: 30px;
     background: linear-gradient(135deg, #1363DF,#47B5FF);
 }
 .container{
     max-width: 700px;
     width: 100%;
     background: #fff;
-    padding: 25px 30px;
+    padding: 30px 30px;
     border-radius: 15px;
 }
 .container .title{
@@ -38,16 +38,16 @@ body{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-     margin: 30px 0 20px 0;
+     margin: 40px 0 30px 0;
 }
 form .user-details .input-box{
     width:  calc(100% / 2 - 20px);
-     margin-bottom: 30px;
+     margin-bottom: 40px;
    
 }
 .user-details .input-box .details{
     font-weight: 500;
-    margin-bottom: 5px;
+    margin-bottom: 15px;
     display: block;
 
 }
@@ -57,9 +57,9 @@ form .user-details .input-box{
     outline: none;
     border-radius: 5px;
     border: 1px solid #ccc;
-    padding-left: 20px;
+    padding-left: 30px;
     font-size: 16px;
-    border-bottom-width: 2px ;
+    border-bottom-width: 5px ;
     transition: all 0.3s ease;
 }
 .user-details .input-box input:focus,
